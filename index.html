@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pinhsin huang youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <button class="burger material-symbols-outlined">menu</button>
+
+      <div class="logo">
+        <img src="logo.svg" />
+      </div>
+      <div class="center">
+        <div class="search">
+          <input
+            spellcheck="false"
+            type="text"
+            class="search"
+            id="search"
+            placeholder="pinhsin huang"
+          />
+          <button class="material-symbols-outlined">search</button>
+        </div>
+        <button class="material-symbols-outlined">mic</button>
+        <button class="material-symbols-outlined">star</button>
+      </div>
+      <nav>
+        <button class="material-symbols-outlined"onclick="loadPageIntoFrame1()">search</button>
+        <button class="material-symbols-outlined"onclick="loadPageIntoFrame2()">mic</button>
+        <button class="material-symbols-outlined"onclick="loadPageIntoFrame3()">video_call</button>
+        <button class="material-symbols-outlined"onclick="loadPageIntoFrame4()">favorite</button>
+        <button class="material-symbols-outlined">
+          <span class="badge">99+</span>notifications
+        </button>
+        <img src="me.jpg" />
+      </nav>
+    </nav>
+    <div class="main">
+      <iframe name="z1" width="100%" height="100%" frameBorder="0"></iframe>
+    </div>
+    <script type="text/javascript">
+      function loadPageIntoFrame1() {
+          var frame = window.frames["z1"];  // 获取名为 myFrame 的 iframe
+          var url = "https://cfchengit.github.io/p5js_1/";  // 要加载的网页的 URL
+          frame.location.href = url;  // 在 iframe 中加载网页
+      }
+      function loadPageIntoFrame2() {
+          var frame = window.frames["z1"];  // 获取名为 myFrame 的 iframe
+          var url = "https://www.tku.edu.tw";  // 要加载的网页的 URL
+          frame.location.href = url;  // 在 iframe 中加载网页
+      }
+      function loadPageIntoFrame3() {
+          var frame = window.frames["z1"];  // 获取名为 myFrame 的 iframe
+          var url = "https://www.tku.edu.tw";  // 要加载的网页的 URL
+          frame.location.href = url;  // 在 iframe 中加载网页
+      }
+      function loadPageIntoFrame4() {
+          var frame = window.frames["z1"];  // 获取名为 myFrame 的 iframe
+          var url = "https://www.instagram.com/pin.c____/?igshid=NTc4MTIwNjQ2YQ%3D%3D";  // 要加载的网页的 URL
+          frame.location.href = url;  // 在 iframe 中加载网页
+      }
+    </script>
+  </body>
+</html>
